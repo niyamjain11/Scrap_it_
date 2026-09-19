@@ -1,2 +1,6 @@
 backend/
 *.py
+*.pt
+yolov8m.pt
+__pycache__/
+
