@@ -180,14 +180,18 @@ KABADIWALA CONNECT/
 ### Step 1: Frontend Setup
 
 ```bash
-# Navigate to project directory
-cd "d:/PROJECTS/KABADIWALA CONNECT"
+# Clone the repository
+git clone https://github.com/niyamjain11/Scrap_it_.git
+cd Scrap_it_
 
 # Install frontend dependencies
 npm install
 
 # Start the Vite development server
 npm run dev
+
+# Build for production
+npm run build
 ```
 > The frontend will launch at: **`http://localhost:5173`** (or `http://localhost:3000`).
 
@@ -196,8 +200,15 @@ npm run dev
 ### Step 2: Backend & AI Vision Setup
 
 ```bash
-# Open a new terminal in the backend directory
-cd "d:/PROJECTS/KABADIWALA CONNECT/backend"
+# Navigate to the backend directory
+cd backend
+
+# (Optional) Create and activate a Python virtual environment
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
 
 # Install Python requirements
 pip install -r requirements.txt
@@ -272,8 +283,32 @@ Accepts an image file, runs quadrant-tiled YOLOv8 detection, and returns item co
 
 ---
 
-## 👥 Contributors
-Developed for **Smart India Hackathon (SIH)** & Circular Economy Initiatives.
+## 🗺️ Project Roadmap
+
+- [x] **Phase 1: Core Portal & AI Computer Vision Engine**
+  - Multi-stakeholder UI (Citizen, Kabadiwala, Recycler)
+  - YOLOv8m object detection with quadrant-tiling for dense small scrap
+  - Instant weight bracket and estimated INR payout calculation
+  - Multi-lingual voice readout (Hindi, Marathi, English)
+- [ ] **Phase 2: IoT Hardware & Smart Dispatch**
+  - Bluetooth (BLE) digital weighing scale integration for zero-tamper verification
+  - Geo-spatial clustering of pickup requests for route optimization
+- [ ] **Phase 3: Formal Sector EPR Integration**
+  - End-to-end automated CPCB green certificate generation
+  - Blockchain/cryptographically verifiable chain-of-custody audit logs
+
+---
+
+## 👥 Authors & Contributors
+
+* **Niyam Jain** ([@niyamjain11](https://github.com/niyamjain11)) - *Core Architecture, Full-Stack Development & AI Integration*
+* Developed for **Smart India Hackathon (SIH)** & Circular Economy Initiatives.
 * **Platform**: SCRAPIT / Kabadiwala Connect
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
 
 
