@@ -7,6 +7,8 @@
 [![PyTorch & YOLOv8](https://img.shields.io/badge/AI%20Vision-YOLOv8%20%7C%20PyTorch-EE4C2C?logo=pytorch&logoColor=white)](https://ultralytics.com/)
 [![OpenCV](https://img.shields.io/badge/Vision-OpenCV-5C3EE8?logo=opencv&logoColor=white)](https://opencv.org/)
 [![Compliance](https://img.shields.io/badge/CPCB-E--Waste%20Rules%202022-2E7D32)](https://cpcb.nic.in/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![CI](https://github.com/niyamjain11/Scrap_it_/actions/workflows/ci.yml/badge.svg)](https://github.com/niyamjain11/Scrap_it_/actions)
 
 ---
 
@@ -296,6 +298,16 @@ Accepts an image file, runs quadrant-tiled YOLOv8 detection, and returns item co
 - [ ] **Phase 3: Formal Sector EPR Integration**
   - End-to-end automated CPCB green certificate generation
   - Blockchain/cryptographically verifiable chain-of-custody audit logs
+
+---
+
+## 📚 Documentation & Community Standards
+
+* 📖 **[Contributing Guidelines](CONTRIBUTING.md)**: Environment setup, coding conventions, and pull request workflow.
+* 🤝 **[Code of Conduct](CODE_OF_CONDUCT.md)**: Community pledge and standards of respectful participation.
+* 🔒 **[Security Policy](SECURITY.md)**: Responsible vulnerability disclosure and support matrix.
+* 📝 **[Changelog](CHANGELOG.md)**: Release tracking and major platform feature updates.
+* 🧠 **[Backend AI Architecture](backend/README.md)**: Tiling inference, model weights, and FastAPI microservice design.
 
 ---
 
