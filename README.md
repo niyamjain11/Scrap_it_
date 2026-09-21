@@ -303,6 +303,10 @@ Accepts an image file, runs quadrant-tiled YOLOv8 detection, and returns item co
 
 ## 📚 Documentation & Community Standards
 
+* 🏛️ **[System Architecture](ARCHITECTURE.md)**: End-to-end dataflow, state machine, and computer vision pipeline specs.
+* 📊 **[E-Waste Taxonomy & Recovery](docs/EWASTE_TAXONOMY.md)**: CPCB classification matrix, benchmark yields, and hazard severity.
+* 🚀 **[Deployment Guide](docs/DEPLOYMENT.md)**: Vercel frontend build setup and Dockerized FastAPI backend configuration.
+* ❓ **[Frequently Asked Questions](docs/FAQ.md)**: Anti-fraud scale mechanics, e-waste evaluation, and EPR statutory compliance.
 * 📖 **[Contributing Guidelines](CONTRIBUTING.md)**: Environment setup, coding conventions, and pull request workflow.
 * 🤝 **[Code of Conduct](CODE_OF_CONDUCT.md)**: Community pledge and standards of respectful participation.
 * 🔒 **[Security Policy](SECURITY.md)**: Responsible vulnerability disclosure and support matrix.

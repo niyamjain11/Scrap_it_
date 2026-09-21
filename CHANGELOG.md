@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.1.0] - 2026-09-21
+
+### Added
+- **Architecture & Technical Design**: Detailed high-level topology, state machine, and tiling inference documentation (`ARCHITECTURE.md`).
+- **E-Waste Taxonomy & Recovery**: CPCB statutory categories, benchmark yields per metric tonne, and hazard ratings (`docs/EWASTE_TAXONOMY.md`).
+- **Production Deployment Guide**: Vercel frontend build specs and Docker/FastAPI backend setup (`docs/DEPLOYMENT.md`).
+- **Frequently Asked Questions**: Evaluator and stakeholder FAQs (`docs/FAQ.md`).
+- **Developer & CI Tooling**:
+  - CodeQL static security analysis workflow (`.github/workflows/codeql.yml`).
+  - Automated Dependabot dependency vulnerability tracking (`.github/dependabot.yml`).
+  - Backend automated unit test suite (`backend/test_api.py`).
+  - Standardized `.editorconfig` and `.gitattributes` for cross-platform consistency.
+- **Shared Utilities**:
+  - Indian Rupee (`formatINR`), weight (`formatWeight`), and carbon offset (`calculateCO2Avoided`) formatters (`src/utils/formatters.js`).
+  - Centralized platform role and order status enums (`src/utils/constants.js`).
+
+---
+
 ## [1.0.0] - 2026-09-19
 
 ### Added
